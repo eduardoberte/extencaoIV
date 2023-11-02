@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="source/img/icon.png" type="image/x-icon">
+    <title>Extensão IV</title>
+
+    <!-- CSS -->
+	<link href="source/css/default.css" rel="stylesheet" type="text/css">
+
+	<!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		
+	<!-- JavaScript -->
+	<script language="javascript" type="text/javascript" src="source/js/default.js" defer></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content row">
+        <div class="nav row">
+            <div class="nav__brand">
+                <a href="index.html" class="nav__brand">GameQuiz</a>
+            </div>
+        </div>
+
+        <div class="questions row" data-discipline="geography">
+            <div class="questions__discipline center">
+                <div class="discipline__title">
+                    Geografia
+                </div>
+                <img src="source/img/geography.png" alt="">
+            </div>
+
+            <div class="questions__content">
+                <div class="content__question row" style="z-index: 5;">
+                    <div class="question__asking row">
+                        1 - Qual a capital do estado de Rio de Janeiro?
+                    </div>
+                    <div class="question__answer row center" data-answer="1">
+                        Porto Alegre
+                    </div>
+                    <div class="question__answer row center" data-answer="2">
+                        Manaus
+                    </div>
+                    <div class="question__answer row center" data-answer="3">
+                        Rio de Janeiro
+                    </div>
+                    <div class="question__answer row center" data-answer="4">
+                       Fortaleza
+                    </div>
+                    <div class="question__controls end" data-question="1">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="content__question row" style="z-index: 4;">
+                    <div class="question__asking row">
+                        2 - Qual a estação do ano que inicia depois do verão?
+                    </div>
+                    <div class="question__answer row center" data-answer="1">
+                        Estação meteorológica
+                    </div>
+                    <div class="question__answer row center" data-answer="2">
+                        Inverno
+                    </div>
+                    <div class="question__answer row center" data-answer="3">
+                        Primavera
+                    </div>
+                    <div class="question__answer row center" data-answer="4">
+                        Outono
+                    </div>
+                    <div class="question__controls" data-question="2">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                     </div>
+                </div>
+
+                <div class="content__question row" style="z-index: 3;">
+                    <div class="question__asking row">
+                        3 - Dos astros (corpos celestes que orbitam no espaço) abaixo, qual não é considerado um planeta?
+                    </div>
+                    <div class="question__answer row center" data-answer="1">
+                        Terra
+                    </div>
+                    <div class="question__answer row center" data-answer="2">
+                        Júpiter
+                    </div>
+                    <div class="question__answer row center" data-answer="3">
+                        Lua
+                    </div>
+                    <div class="question__answer row center" data-answer="4">
+                        Saturno
+                    </div>
+                    <div class="question__controls" data-question="3">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                     </div>
+                </div>
+
+                <div class="content__question row" style="z-index: 2;">
+                    <div class="question__asking row">
+                        4 - Qual a maior estrela do sistema solar?
+                    </div>
+                    <div class="question__answer row center" data-answer="1">
+                        Terra
+                    </div>
+                    <div class="question__answer row center" data-answer="2">
+                        Lua
+                    </div>
+                    <div class="question__answer row center" data-answer="3">
+                        Sol
+                    </div>
+                    <div class="question__answer row center" data-answer="4">
+                        Plutão
+                    </div>
+                    <div class="question__controls" data-question="4">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                     </div>
+                </div>
+
+                <div class="content__question row" style="z-index: 1;">
+                    <div class="question__asking row">
+                        5 - Qual estado pertence a região sul do Brasil?
+                    </div>
+                    <div class="question__answer row center" data-answer="1">
+                        Pernambuco
+                    </div>
+                    <div class="question__answer row center" data-answer="2">
+                        Ceará
+                    </div>
+                    <div class="question__answer row center" data-answer="3">
+                        Espírito Santo
+                    </div>
+                    <div class="question__answer row center" data-answer="4">
+                        Rio Grande do Sul
+                    </div>
+                    <div class="question__controls" data-question="5">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <button>Enviar respostas</button>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="questions row" data-discipline="history">
+            <div class="questions__discipline center">
+                <div class="discipline__title">
+                    História
+                </div>
+                <img src="source/img/history.png" alt="">
+            </div>
+
+            <div class="questions__content">
+                <div class="content__question row" style="z-index: 5;">
+                    <div class="question__asking row">
+                        1 - Meio de transporte pouco utilizado nos dias de hoje, que servia para transportar cargas, como cana-de-açúcar, nos engenhos.
+                    </div>
+                    <div class="question__answer row center" data-answer="1">
+                        Avião
+                    </div>
+                    <div class="question__answer row center" data-answer="2">
+                        Carroça
+                    </div>
+                    <div class="question__answer row center" data-answer="3">
+                        Carro-de-boi
+                    </div>
+                    <div class="question__answer row center" data-answer="4">
+                       Barco
+                    </div>
+                    <div class="question__controls end" data-question="1">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="content__question row" style="z-index: 4;">
+                    <div class="question__asking row">
+                        2 - Quem foi o primeiro navegante que desembarcou nas terras brasileiras?
+                    </div>
+                    <div class="question__answer row center" data-answer="1">
+                        Pedro Álvares Cabral
+                    </div>
+                    <div class="question__answer row center" data-answer="2">
+                        Cristovão Colombo
+                    </div>
+                    <div class="question__answer row center" data-answer="3">
+                        Fernão Dias
+                    </div>
+                    <div class="question__answer row center" data-answer="4">
+                        Tiradentes
+                    </div>
+                    <div class="question__controls" data-question="2">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                     </div>
+                </div>
+
+                <div class="content__question row" style="z-index: 3;">
+                    <div class="question__asking row">
+                        3 - A primeira grande riqueza explorada pelos brancos que colonizaram o Brasil foi?
+                    </div>
+                    <div class="question__answer row center" data-answer="1">
+                        Diamantes
+                    </div>
+                    <div class="question__answer row center" data-answer="2">
+                        Café
+                    </div>
+                    <div class="question__answer row center" data-answer="3">
+                        Cacau
+                    </div>
+                    <div class="question__answer row center" data-answer="4">
+                        Pau Brasil
+                    </div>
+                    <div class="question__controls" data-question="3">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                     </div>
+                </div>
+
+                <div class="content__question row" style="z-index: 2;">
+                    <div class="question__asking row">
+                        4 - O que Dom Pedro I gritou as margens do Rio Ipiranga?
+                    </div>
+                    <div class="question__answer row center" data-answer="1">
+                        Terra a vista
+                    </div>
+                    <div class="question__answer row center" data-answer="2">
+                        Eu declaro que fico
+                    </div>
+                    <div class="question__answer row center" data-answer="3">
+                        Independência ou morte
+                    </div>
+                    <div class="question__answer row center" data-answer="4">
+                        O Brasil é nosso
+                    </div>
+                    <div class="question__controls" data-question="4">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                     </div>
+                </div>
+
+                <div class="content__question row" style="z-index: 1;">
+                    <div class="question__asking row">
+                        5 - Ao se referir a datas históricas, muitas vezes usamos as abreviações a.C. e d.C, o que elas significam?
+                    </div>
+                    <div class="question__answer row center" data-answer="1">
+                        a.C (Antes da Crise) e d.C (Depois da Crise)
+                    </div>
+                    <div class="question__answer row center" data-answer="2">
+                        a.C (Antes de Cristo) e d.C (Depois de Cristo)
+                    </div>
+                    <div class="question__answer row center" data-answer="3">
+                        a.C (Ao Cristo) e d.C (De Cristo)
+                    </div>
+                    <div class="question__answer row center" data-answer="4">
+                        a.C (Antes do Café) e d.C (Depois do Café)
+                    </div>
+                    <div class="question__controls" data-question="5">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <button>Enviar respostas</button>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="questions row" data-discipline="sciences">
+            <div class="questions__discipline center">
+                <div class="discipline__title">
+                    Ciências
+                </div>
+                <img src="source/img/sciences.png" alt="">
+            </div>
+
+            <div class="questions__content">
+                <div class="content__question row" style="z-index: 5;">
+                    <div class="question__asking row">
+                        1 - Quando falamos em H2O estamos nos referindo à qual elemento?
+                    </div>
+                    <div class="question__answer row center" data-answer="1">
+                        Fogo
+                    </div>
+                    <div class="question__answer row center" data-answer="2">
+                        Terra
+                    </div>
+                    <div class="question__answer row center" data-answer="3">
+                        Água
+                    </div>
+                    <div class="question__answer row center" data-answer="4">
+                       Ar
+                    </div>
+                    <div class="question__controls end" data-question="1">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="content__question row" style="z-index: 4;">
+                    <div class="question__asking row">
+                        2 - As plantas produzem o seu próprio alimento, como é chamado este fenômeno?
+                    </div>
+                    <div class="question__answer row center" data-answer="1">
+                        Fotossíntese
+                    </div>
+                    <div class="question__answer row center" data-answer="2">
+                        Translação
+                    </div>
+                    <div class="question__answer row center" data-answer="3">
+                        Rotação
+                    </div>
+                    <div class="question__answer row center" data-answer="4">
+                        Metamorfose
+                    </div>
+                    <div class="question__controls" data-question="2">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                     </div>
+                </div>
+
+                <div class="content__question row" style="z-index: 3;">
+                    <div class="question__asking row">
+                        3 - Os seres humanos são formados por:
+                    </div>
+                    <div class="question__answer row center" data-answer="1">
+                        Células
+                    </div>
+                    <div class="question__answer row center" data-answer="2">
+                        Organismos
+                    </div>
+                    <div class="question__answer row center" data-answer="3">
+                        Zigoto
+                    </div>
+                    <div class="question__answer row center" data-answer="4">
+                        Ossos
+                    </div>
+                    <div class="question__controls" data-question="3">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                     </div>
+                </div>
+
+                <div class="content__question row" style="z-index: 2;">
+                    <div class="question__asking row">
+                        4 - Quais são os estados físicos da matéria?
+                    </div>
+                    <div class="question__answer row center" data-answer="1">
+                        Gelo, água e sólido
+                    </div>
+                    <div class="question__answer row center" data-answer="2">
+                        Água, gasoso e sólido
+                    </div>
+                    <div class="question__answer row center" data-answer="3">
+                        Gás, água e sólido
+                    </div>
+                    <div class="question__answer row center" data-answer="4">
+                        Sólido, líquido e gasoso
+                    </div>
+                    <div class="question__controls" data-question="4">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                     </div>
+                </div>
+
+                <div class="content__question row" style="z-index: 1;">
+                    <div class="question__asking row">
+                        5 - Qual destas maneiras poluem o ar?
+                    </div>
+                    <div class="question__answer row center" data-answer="1">
+                        Reciclagem
+                    </div>
+                    <div class="question__answer row center" data-answer="2">
+                        Queimadas
+                    </div>
+                    <div class="question__answer row center" data-answer="3">
+                        Tratamento de esgoto
+                    </div>
+                    <div class="question__answer row center" data-answer="4">
+                        Plantar árvores
+                    </div>
+                    <div class="question__controls" data-question="5">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <button>Enviar respostas</button>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="points __active row">
+            <div class="points__content">
+                <div class="content__title">
+                    Você acertou
+                </div>
+                <div class="content__hits">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                        <path d="M38.3732 15.6267C42.0132 17.08 43.8319 17.808 44.0532 19.3147C44.2719 20.8214 42.7466 22.112 39.6932 24.6907L38.9039 25.3574C38.0372 26.0907 37.6052 26.4587 37.3572 26.9574C37.1066 27.456 37.0719 28.032 36.9999 29.184L36.9359 30.232C36.6879 34.2854 36.5626 36.312 35.2452 37.0107C33.9279 37.7094 32.2906 36.6187 29.0159 34.4347L28.1679 33.8694C27.2372 33.248 26.7732 32.936 26.2399 32.8534C25.7066 32.768 25.1679 32.9174 24.0906 33.216L23.1092 33.488C19.3172 34.5387 17.4212 35.064 16.3892 33.9894C15.3546 32.9147 15.8692 30.9494 16.8959 27.0214M15.9999 20.8934C13.9039 17.4907 12.8586 15.7894 13.5359 14.424C14.2132 13.064 16.1706 12.9387 20.0799 12.696L21.0932 12.632C22.2026 12.5627 22.7572 12.528 23.2399 12.272C23.7226 12.016 24.0772 11.568 24.7866 10.672L25.4346 9.85603C27.9306 6.70136 29.1812 5.12269 30.6346 5.35469C32.0852 5.58936 32.7812 7.47736 34.1706 11.256" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M44.1439 19.3094C50.3706 23.8641 55.1359 32.5761 52.6719 48.0027C50.4879 41.5707 43.9093 36.4214 36.5573 33.9414" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M36.5866 42.6667C36.5866 42.6667 34.896 46.3733 32.816 47.6533C30.736 48.9253 26.6666 48.7467 26.6666 48.7467C26.6666 48.7467 30.3733 50.4347 31.6533 52.5147C32.928 54.5947 32.7466 58.6667 32.7466 58.6667C32.7466 58.6667 34.4373 54.96 36.5173 53.68C38.5946 52.4107 42.6666 52.5867 42.6666 52.5867C42.6666 52.5867 38.96 50.8987 37.68 48.8187C36.4053 46.7387 36.5866 42.6667 36.5866 42.6667ZM14.72 40C14.72 40 15.8453 42.472 17.232 43.3227C18.6186 44.1733 21.3333 44.0533 21.3333 44.0533C21.3333 44.0533 18.8613 45.1787 18.0106 46.5653C17.16 47.952 17.28 50.6667 17.28 50.6667C17.28 50.6667 16.1546 48.1947 14.768 47.344C13.3813 46.4933 10.6666 46.6133 10.6666 46.6133C10.6666 46.6133 13.1386 45.488 13.9893 44.1013C14.84 42.7147 14.72 40 14.72 40Z" stroke="white" stroke-linejoin="round"/>
+                    </svg>
+                    <div class="hits"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                        <path d="M25.6268 15.6267C21.9868 17.08 20.1681 17.808 19.9468 19.3147C19.7281 20.8214 21.2534 22.112 24.3068 24.6907L25.0961 25.3574C25.9628 26.0907 26.3948 26.4587 26.6428 26.9574C26.8934 27.456 26.9281 28.032 27.0001 29.184L27.0641 30.232C27.3121 34.2854 27.4374 36.312 28.7548 37.0107C30.0721 37.7094 31.7094 36.6187 34.9841 34.4347L35.8321 33.8694C36.7628 33.248 37.2268 32.936 37.7601 32.8534C38.2934 32.768 38.8321 32.9174 39.9094 33.216L40.8908 33.488C44.6828 34.5387 46.5788 35.064 47.6108 33.9894C48.6454 32.9147 48.1308 30.9494 47.1041 27.0214M48.0001 20.8934C50.0961 17.4907 51.1414 15.7894 50.4641 14.424C49.7868 13.064 47.8294 12.9387 43.9201 12.696L42.9068 12.632C41.7974 12.5627 41.2428 12.528 40.7601 12.272C40.2774 12.016 39.9228 11.568 39.2134 10.672L38.5654 9.85603C36.0694 6.70136 34.8188 5.12269 33.3654 5.35469C31.9148 5.58936 31.2188 7.47736 29.8294 11.256" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M19.8561 19.3094C13.6294 23.8641 8.86405 32.5761 11.3281 48.0027C13.5121 41.5707 20.0907 36.4214 27.4427 33.9414" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M27.4134 42.6667C27.4134 42.6667 29.104 46.3733 31.184 47.6533C33.264 48.9253 37.3334 48.7467 37.3334 48.7467C37.3334 48.7467 33.6267 50.4347 32.3467 52.5147C31.072 54.5947 31.2534 58.6667 31.2534 58.6667C31.2534 58.6667 29.5627 54.96 27.4827 53.68C25.4054 52.4107 21.3334 52.5867 21.3334 52.5867C21.3334 52.5867 25.04 50.8987 26.32 48.8187C27.5947 46.7387 27.4134 42.6667 27.4134 42.6667ZM49.28 40C49.28 40 48.1547 42.472 46.768 43.3227C45.3814 44.1733 42.6667 44.0533 42.6667 44.0533C42.6667 44.0533 45.1387 45.1787 45.9894 46.5653C46.84 47.952 46.72 50.6667 46.72 50.6667C46.72 50.6667 47.8454 48.1947 49.232 47.344C50.6187 46.4933 53.3334 46.6133 53.3334 46.6133C53.3334 46.6133 50.8614 45.488 50.0107 44.1013C49.16 42.7147 49.28 40 49.28 40Z" stroke="white" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <a class="content__back" href="index.html">
+                    Responder novamente
+                </a>
+            </div>
+        </div>
+
+        <div class="footer row center">
+            Trabalho de extensão IV realizado por: Eduardo Guilherme Berté França, Julia Gabrielle Cajeu Kovalski, Lucas Oliveira Lopes e Ruan Batista Santos
+        </div>
+    </div>
+</body>
+</html>
