@@ -259,3 +259,14 @@ body {
     bottom: 0;
     background: var(--bg-gradient-footer);
 }
+
+@media (max-width: 767px) {
+    .questions__discipline{
+        display: none;
+    }
+
+    .questions__content{
+        width: 100%;
+    }
+}
+  
