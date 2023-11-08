@@ -116,8 +116,8 @@ body {
 .questions__content{
     position: relative;
     width: calc(100% - 30%);
-    height: 100%;
-    padding: 50px;
+    height: 110%;
+    padding: 0px 50px;
     background-color: var(--fade-white);
     overflow: hidden;
 }
@@ -148,6 +148,10 @@ body {
 .content__question::-webkit-scrollbar-thumb {
     background-color: #CCCCCC;
     border-radius: 25px;
+}
+
+.question__asking{
+    margin-top: 50px;
 }
 
 .question__asking,
