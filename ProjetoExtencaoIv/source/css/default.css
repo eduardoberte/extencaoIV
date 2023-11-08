@@ -151,7 +151,7 @@ body {
 }
 
 .question__asking{
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .question__asking,
@@ -270,6 +270,11 @@ body {
     }
 
     .questions__content{
+        width: 100%;
+        padding: 0;
+    }
+
+    .content__question{
         width: 100%;
     }
 }
